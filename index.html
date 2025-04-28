@@ -13,9 +13,9 @@
     <title>Extension UI</title>
   </head>
   <body>
-    <div class="Search">
+    <div id="Search">
       <img src="Images/logo.svg" alt="Extensions" />
-      <button class="ThemeChanger">
+      <button id="ThemeChanger">
         <img class="right-aligned" src="Images/icon-sun.svg" alt="Sun Icon" />
       </button>
     </div>
@@ -29,120 +29,184 @@
     </div>
     <div class="ExtensionGrid">
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-devlens.svg" alt="" />
-        <h3>DevLens</h3>
-        <p>Quickly inspect page layouts and visualize element boundaries.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-devlens.svg" alt="" />
+          <h3>DevLens</h3>
+          <p>Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-style-spy.svg" alt="" />
-        <h3>StyleSpy</h3>
-        <p>Instantly analyze and copy CSS from any webpage element.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-style-spy.svg" alt="" />
+          <h3>StyleSpy</h3>
+          <p>Instantly analyze and copy CSS from any webpage element.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-speed-boost.svg" alt="" />
-        <h3>SpeedBoost</h3>
-        <p>Optimizes browser resource usage to accelerate page loading.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-speed-boost.svg" alt="" />
+          <h3>SpeedBoost</h3>
+          <p>Optimizes browser resource usage to accelerate page loading.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-json-wizard.svg" alt="" />
-        <h3>JSONWizard</h3>
-        <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-json-wizard.svg" alt="" />
+          <h3>JSONWizard</h3>
+          <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-tab-master-pro.svg" alt="" />
-        <h3>TabMaster Pro</h3>
-        <p>Organizes browser tabs into groups and sessions.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-tab-master-pro.svg" alt="" />
+          <h3>TabMaster Pro</h3>
+          <p>Organizes browser tabs into groups and sessions.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-viewport-buddy.svg" alt="" />
-        <h3>ViewportBuddy</h3>
-        <p>Simulates various screen resolutions directly within the browser.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-viewport-buddy.svg" alt="" />
+          <h3>ViewportBuddy</h3>
+          <p>
+            Simulates various screen resolutions directly within the browser.
+          </p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-markup-notes.svg" alt="" />
-        <h3>Markup Notes</h3>
-        <p>
-          Enables annotation and notes directly onto webpages for collaborative
-          debugging.
-        </p>
+        <div>
+          <img class="GridImage" src="Images/logo-markup-notes.svg" alt="" />
+          <h3>Markup Notes</h3>
+          <p>
+            Enables annotation and notes directly onto webpages for
+            collaborative debugging.
+          </p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-grid-guides.svg" alt="" />
-        <h3>Grid Guides</h3>
-        <p>Overlay customizable grids and alignment guides on any webpage.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-grid-guides.svg" alt="" />
+          <h3>Grid Guides</h3>
+          <p>Overlay customizable grids and alignment guides on any webpage.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-palette-picker.svg" alt="" />
-        <h3>Palette Picker</h3>
-        <p>Instantly extracts color palettes from any webpage.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-palette-picker.svg" alt="" />
+          <h3>Palette Picker</h3>
+          <p>Instantly extracts color palettes from any webpage.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-link-checker.svg" alt="" />
-        <h3>Link Checker</h3>
-        <p>Scans and highlights broken links on any page.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-link-checker.svg" alt="" />
+          <h3>Link Checker</h3>
+          <p>Scans and highlights broken links on any page.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img class="GridImage" src="Images/logo-dom-snapshot.svg" alt="" />
-        <h3>Dom Snapshot</h3>
-        <p>Capture and export DOM structures quickly.</p>
+        <div>
+          <img class="GridImage" src="Images/logo-dom-snapshot.svg" alt="" />
+          <h3>Dom Snapshot</h3>
+          <p>Capture and export DOM structures quickly.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
       <div class="GridItem">
-        <img
-          class="GridImage"
-          src="Images/logo-console-plus.svg"
-          alt="Console Plus"
-        />
-        <h3>ConsolePlus</h3>
-        <p>Enhanced developer console with advanced filtering and logging.</p>
+        <div>
+          <img
+            class="GridImage"
+            src="Images/logo-console-plus.svg"
+            alt="Console Plus"
+          />
+          <h3>ConsolePlus</h3>
+          <p>Enhanced developer console with advanced filtering and logging.</p>
+        </div>
         <div class="GridButtonContiner">
           <button class="RemoveButton">Remove</button>
-          <button class="Switch">Switch Button</button>
+          <label class="toggle-switch">
+            <input type="checkbox" />
+            <span class="slider"></span>
+          </label>
         </div>
       </div>
     </div>
+    <script src="DynamicTing.js"></script>
   </body>
 </html>
